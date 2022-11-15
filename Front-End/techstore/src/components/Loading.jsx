@@ -1,31 +1,18 @@
 import './Loading.css';
 
-export default function Loading() {
+export default function Loading(props) {
 
-    const loading = {
-        top: 0,
-        position: 'absolute',
-        width: '100vw',
-        height: '100vh',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: 'rgb(157 180 215)',
-        textAlign: 'center',
-        zIndex: 3,
-    }
-
-    return (
-        <div style={loading}>
+    return (        
+        <div className='loading' id={props.estado?"show":"hide"}>
             <h1>
-                <span className="let1">l</span>
-                <span className="let2">o</span>
-                <span className="let3">a</span>
-                <span className="let4">d</span>
-                <span className="let5">i</span>
-                <span className="let6">n</span>
-                <span className="let7">g</span>
+                <span className="spanLoading let1">l</span>
+                <span className="spanLoading let2">o</span>
+                <span className="spanLoading let3">a</span>
+                <span className="spanLoading let4">d</span>
+                <span className="spanLoading let5">i</span>
+                <span className="spanLoading let6">n</span>
+                <span className="spanLoading let7">g</span>
             </h1>
-        </div>
+        </div>        
     )
 }

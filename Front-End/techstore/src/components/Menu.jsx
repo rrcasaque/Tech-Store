@@ -7,7 +7,7 @@ export default function Menu(props) {
         position: 'absolute',        
         top: '-235px',
         zIndex: 1,
-        width: '100vw',
+        width: '100%',
         backgroundColor: 'rgb(0 0 0 / 92%)',
         fontFamily: 'sans-serif',
         color: 'white',

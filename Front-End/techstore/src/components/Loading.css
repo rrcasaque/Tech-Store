@@ -1,12 +1,12 @@
-h1 {  
+h1 {
   font-family: ‘Arial Narrow’, sans-serif;
   font-weight: 100;
   font-size: 2em;
-  color: black;    
+  color: black;
   margin-top: -7.5em;
 }
 
-span {
+.spanLoading {
   position: relative;
   top: 0.63em;
   display: inline-block;
@@ -49,6 +49,27 @@ span {
 .let7 {
   animation: drop 1.5s ease-in-out infinite;
   animation-delay: .8s;
+}
+
+#show {
+  display: flex;
+}
+
+#hide {
+  display: none;
+}
+
+.loading {
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(157 180 215);
+  text-align: center;
+  z-index: 3;
 }
 
 @keyframes drop {

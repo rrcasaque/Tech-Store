@@ -5,23 +5,32 @@ import ft4 from './img/4.jpg';
 import ft5 from './img/5.jpg';
 import '../App.css';
 
-export default function Banner(){    
+export default function Banner(){        
 
-    const container = {
-        display: 'flex',        
-        overflow: 'hidden',        
-        position: 'relative',
-        zIndex: -2,        
-        width: '100%',        
-    }    
+    let img = {
+        margin: '0%',
+        width: '100%',            
+    }
+
+    if (window.matchMedia(`(min-width: 760px)`).matches) {
+        img = {            
+            width: '65vw',
+            margin: '0 17.5vw',
+        }
+    }else{
+        img = {
+            margin: '0%',
+            width: '100%',
+        }
+    }
 
     return(
-        <aside style={container}>
-            <img className="imagem" src={ft1} alt="" />
-            <img className="imagem" src={ft2} alt="" />
-            <img className="imagem" src={ft3} alt="" />
-            <img className="imagem" src={ft4} alt="" />
-            <img className="imagem" src={ft5} alt="" />
+        <aside className='banner'>
+            <img className="imagem" style={img} src={ft1} alt="" />
+            <img className="imagem" style={img} src={ft2} alt="" />
+            <img className="imagem" style={img} src={ft3} alt="" />
+            <img className="imagem" style={img} src={ft4} alt="" />
+            <img className="imagem" style={img} src={ft5} alt="" />
         </aside>
     );
 }

@@ -7,10 +7,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(()=>{
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+  root.render(    
+      <App />    
   )
 },100);
 
