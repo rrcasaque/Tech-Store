@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Product from "./components/Product";
 import axios from "axios";
 import Loading from "./components/Loading";
+import Footer from "./components/Footer";
 import { useState, useEffect } from "react";
 
 export default function App() {
@@ -34,6 +35,7 @@ export default function App() {
         </section>
       )}
       
+      <Footer/>
     </>
   );
 }
