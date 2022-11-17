@@ -8,7 +8,7 @@ export default function Product(props) {
                 <h3>{props.obj.nome}</h3>
                 <h2>R$ {parseFloat(props.obj.valor).toLocaleString('pt-br', { minimumFractionDigits: 2 })}</h2>
                 <p>no PIX <span>(7% de desconto)</span></p>
-                <p>ou 10x de R$ {(parseFloat(props.obj.valor) / 10).toLocaleString('pt-br', { minimumFractionDigits: 2 })} sem juros</p>
+                <p>ou até {props.obj.maxParcelas}x de R$ {(parseFloat(props.obj.valor) / parseInt(props.obj.maxParcelas)).toLocaleString('pt-br', { minimumFractionDigits: 2 })} sem juros</p>
             </div>
         </div>
     );

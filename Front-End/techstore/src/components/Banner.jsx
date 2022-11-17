@@ -15,11 +15,11 @@ export default function Banner(){
     if (window.matchMedia(`(min-width: 760px)`).matches) {
         img = {            
             width: '65vw',
-            margin: '0 17.5vw',
+            margin: '27px 17.5vw 0 17.5vw',
         }
     }else{
         img = {
-            margin: '0%',
+            marginTop: '50px',
             width: '100%',
         }
     }
