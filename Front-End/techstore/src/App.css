@@ -1,17 +1,17 @@
 #menu {
-    width: 35px;    
+    width: 35px;
     height: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: flex-end;    
+    align-items: flex-end;
 }
 
-.shoppingCar{
+.shoppingCar {
     display: flex;
     align-items: center;
-    justify-content: center;    
-    width: 50px;            
+    justify-content: center;
+    width: 50px;
 }
 
 #menu>div {
@@ -20,10 +20,10 @@
     background-color: black;
 }
 
-.menuStyle{
-    margin-left: 5%;    
+.menuStyle {
+    margin-left: 5%;
     width: 12%;
-    display: flex;    
+    display: flex;
     justify-content: center;
 }
 
@@ -87,7 +87,7 @@
     animation-fill-mode: forwards;
 }
 
-.menuAberto {    
+.menuAberto {
     animation: menuAbrir linear .3s;
     animation-fill-mode: forwards;
 }
@@ -104,7 +104,7 @@
 .banner {
     display: flex;
     overflow: hidden;
-    position: relative;    
+    position: relative;
     z-index: -1;
     width: 100%;
     background: linear-gradient(180deg, rgb(218, 218, 218) 0%, rgb(87, 135, 161) 100%);
@@ -117,24 +117,24 @@
     text-decoration: none;
     color: #333;
     font-family: sans-serif;
-    width: 15%;            
+    width: 15%;
 }
 
 .headerStyle {
     background-color: #32a2eb;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     height: 50px;
     border-bottom: 1px solid rgb(185, 185, 185);
     position: fixed;
-    width: 100%;    
+    width: 100%;
     z-index: 2;
     top: 0;
 }
 
 .formStyle {
-    width: 55%;        
+    width: 55%;
 }
 
 .buscarStyle {
@@ -163,7 +163,7 @@
 }
 
 .nomeStyle {
-    width: 45px;    
+    width: 45px;
 }
 
 .links {
@@ -197,23 +197,23 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: roboto, sans-serif;    
+    font-family: roboto, sans-serif;
     flex-direction: column;
     -webkit-box-shadow: 0px 0px 39px -18px rgb(180, 180, 180);
     -moz-box-shadow: 0px 0px 39px -18px rgb(180, 180, 180);
     box-shadow: 0px 0px 39px -18px rgb(180, 180, 180);
     border-radius: 10px;
-    padding: 15px 0;    
+    padding: 15px 0;
 
     /* aaa */
     font-family: roboto, sans-serif;
     text-decoration: none;
-    color: #333;            
+    color: #333;
     width: 75%;
-    margin: 1.5rem 15%;            
+    margin: 1.5rem 15%;
 }
 
-.productContainer>div:nth-child(2){    
+.productContainer>div:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,35 +221,35 @@
     height: 13.5em;
 }
 
-.productContainer>div>h3{
+.productContainer>div>h3 {
     margin: 0 5%;
     font-size: 1rem;
 }
 
-.productContainer>div>p{
+.productContainer>div>p {
     font-size: .95rem;
 }
 
-.productContainer>div>p>span{
+.productContainer>div>p>span {
     color: rgb(89, 192, 11);
 }
 
 .productImg {
     position: relative;
-    width: 100%;    
+    width: 100%;
 }
 
 .productImg>img {
     width: 80%;
 }
 
-.footerContainer{
+.footerContainer {
     color: white;
     background-color: black;
     font-family: roboto, sans-serif;
 }
 
-.news{
+.news {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,14 +258,14 @@
     border-bottom: 1px solid gray;
 }
 
-.news>form{
+.news>form {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.news>form>input{
+.news>form>input {
     height: 35px;
     border: 0;
     border-radius: 10px;
@@ -276,55 +276,62 @@
     text-align: center;
 }
 
-.news>form>button{
+.news>form>button {
     height: 35px;
     border: 0;
     border-radius: 10px;
     width: 75vw;
-    color: black;        
+    color: black;
     font-size: 18px;
     background-color: #32a2eb;
     margin-top: 3px;
 }
 
-#login,#cadastro,#carrinho,#compras,#conta,#dados{    
+#login,
+#cadastro,
+#carrinho,
+#compras,
+#conta,
+#dados {
     display: none;
     height: calc(100vh - 51px);
-    margin-top: 51px ;
+    margin-top: 51px;
     z-index: -1;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     color: white;
     font-family: roboto, sans-serif;
     width: 90%;
     margin-left: 5%;
 }
 
-#cadastro>div:first-child,#cadastro>div:last-child{
+#cadastro>div:first-child,
+#cadastro>div:last-child {
     width: 100%;
     height: 10vh;
     background-image: url(components/img/backgroundForm.png);
     background-size: cover;
-    background-position: center;    
+    background-position: center;
 }
 
-#cadastro>div:first-child{
+#cadastro>div:first-child {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-#cadastro>div:last-child{
+#cadastro>div:last-child {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-#cadastro>div:nth-child(2){
+#cadastro>div:nth-child(2) {
     background-color: #333;
     text-align: center;
     width: 100%;
 }
 
-#cadastro>div:nth-child(2)>form>div:first-child,#cadastro>div:nth-child(2)>form>div:nth-child(2){
+#cadastro>div:nth-child(2)>form>div:first-child,
+#cadastro>div:nth-child(2)>form>div:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -332,40 +339,113 @@
     flex-wrap: wrap;
 }
 
-#cadastro>div:nth-child(2)>form>div:last-child{
+#cadastro>div:nth-child(2)>form>div:last-child {
     display: flex;
     justify-content: center;
 }
 
-#cadastro>div:nth-child(2)>form>div:last-child>button{
+#cadastro>div:nth-child(2)>form>div:last-child>button {
     color: white;
     background-color: #005aff;
     display: block;
-    width: 30%;            
+    width: 30%;
     margin: 0 5px;
     padding: 5px 0;
     text-decoration: none;
-    border-radius: 5px;   
-    border: 0; 
+    border-radius: 5px;
+    border: 0;
 }
 
-#cadastro>div:nth-child(2)>form>div:last-child>button:last-child{
+#cadastro>div:nth-child(2)>form>div:last-child>button:last-child {
     background-color: #5a719c;
 }
 
-#cadastro>div:nth-child(2)>form>div>input, #endereco{
+#cadastro>div:nth-child(2)>form>div>input,
+#endereco {
     width: 42%;
     padding: 0 2%;
     display: inline-block;
     height: 35px;
-    border-radius: 10px;    
+    border-radius: 10px;
     text-align: left;
     border: 0;
     margin: 3px;
-    font-size: 16px;    
+    font-size: 16px;
 }
 
-#btnSO{
+.formDados{
+    flex-direction: column;
+}
+
+.formDados>div:first-child,
+.formDados>div:last-child {
+    width: 100%;
+    height: 10vh;
+    background-image: url(components/img/backgroundForm.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.formDados>div:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.formDados>div:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.formDados>div:nth-child(2) {
+    background-color: rgb(67, 118, 150);
+    text-align: center;
+    width: 100%;
+}
+
+.formDados>div:nth-child(2)>form>div:first-child,
+.formDados>div:nth-child(2)>form>div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.formDados>div:nth-child(2)>form>div:last-child {
+    display: flex;
+    justify-content: center;
+}
+
+.formDados>div:nth-child(2)>form>div:last-child>button {
+    color: white;
+    background-color: #005aff;
+    display: block;
+    width: 30%;
+    margin: 0 5px;
+    padding: 5px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 0;
+}
+
+.formDados>div:nth-child(2)>form>div:last-child>button:last-child {
+    background-color: #5a719c;
+}
+
+.formDados>div:nth-child(2)>form>div>input,
+#endereco {
+    width: 42%;
+    padding: 0 2%;
+    display: inline-block;
+    height: 35px;
+    border-radius: 10px;
+    text-align: left;
+    border: 0;
+    margin: 3px;
+    font-size: 16px;
+}
+
+#btnSO {
     color: white;
     background-color: #005aff;
     display: block;
@@ -374,30 +454,36 @@
     width: 50%;
     padding: 5px 0;
     text-decoration: none;
-    border-radius: 5px;    
+    border-radius: 5px;
 }
 
-#endereco,#complemento{
+#endereco,
+#complemento {
     width: 100%;
     text-align: center;
 }
 
-#endereco>span{
+#endereco>span {
     margin: 0 5px;
 }
 
-#cadastro{
+#endereco {
+    margin: 5px 0;
+}
+
+#cadastro {
     height: 110vh;
-    margin: 0 2.5%;    
+    margin: 0 2.5%;
     margin-top: 7vh;
     width: 95%;
 }
 
-#login,#cadastro{
+#login,
+#cadastro {
     flex-direction: column;
 }
 
-#login>div:first-child{
+#login>div:first-child {
     background-image: url(components/img/backgroundForm.png);
     background-position: center;
     background-size: cover;
@@ -407,21 +493,21 @@
     border-top-right-radius: 10px;
 }
 
-#login>div:nth-child(2){
+#login>div:nth-child(2) {
     width: 100%;
     background-color: #333;
-    height: 50%;    
+    height: 50%;
     border-radius: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     flex-direction: column;
-    text-align: center;    
+    text-align: center;
 }
 
-#login>div:nth-child(2)>form{
+#login>div:nth-child(2)>form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -429,21 +515,22 @@
     width: 100%;
 }
 
-#login>div:nth-child(2)>form>input,#login>div:nth-child(2)>form>button{    
+#login>div:nth-child(2)>form>input,
+#login>div:nth-child(2)>form>button {
     width: 90%;
     height: 35px;
-    border-radius: 10px;    
+    border-radius: 10px;
     text-align: center;
     border: 0;
     margin: 3px 0;
-    font-size: 16px;    
+    font-size: 16px;
 }
 
-#login>div:nth-child(2)>div>h2{
+#login>div:nth-child(2)>div>h2 {
     font-size: 22px;
 }
 
-#login>div:nth-child(2)>div>a{
+#login>div:nth-child(2)>div>a {
     color: white;
     background-color: #005aff;
     display: block;
@@ -453,17 +540,21 @@
     padding: 5px;
 }
 
-#login>div:nth-child(2)>form>a{
-    color:white;
+#login>div:nth-child(2)>form>a {
+    color: white;
 }
 
-#login>div:nth-child(2)>form>input{    
+#login>div:nth-child(2)>form>input {
     border: 1px inset #ccc;
 }
 
-#login>div:nth-child(2)>form>button{
-    background-color:#005aff;
+#login>div:nth-child(2)>form>button {
+    background-color: #005aff;
     color: white;
+}
+
+.purchaseContainer{
+    color: black;
 }
 
 @keyframes barra1 {
@@ -628,9 +719,10 @@
         width: 100%;
     }
 
-    .banner{
+    .banner {
         margin-top: 50px;
     }
+
     .productsSection {
         margin: 30px 2.5%;
     }
@@ -639,88 +731,88 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        text-align: center;            
+        text-align: center;
         flex-direction: column;
-        width: 23%;                
-        margin: 1.5rem 1%;        
-    }        
+        width: 23%;
+        margin: 1.5rem 1%;
+    }
 
     .imagem {
-        animation: slide2 30s ease-in-out infinite;                
+        animation: slide2 30s ease-in-out infinite;
     }
 
     .productImg {
-        position: relative;                
+        position: relative;
         height: 16vw;
     }
-    
+
     .productImg>img {
-        width: 90%;                        
+        width: 90%;
         height: 100%;
     }
 
-    .news{
-        flex-direction: row;        
+    .news {
+        flex-direction: row;
         margin: 0 10%;
     }
 
-    .news>div{
+    .news>div {
         width: 30%;
         text-align: left;
-        margin: 0;        
+        margin: 0;
     }
 
-    .news>form{
+    .news>form {
         display: flex;
         align-items: center;
         justify-content: flex-start;
         flex-direction: row;
-        width: 70%;        
-    }
-    
-    .news>form>input{    
-        width: 37.5%;
-        padding: 0 2%;
-        margin: 0 .25%;        
-        text-align: left;                
-    }
-    
-    .news>form>button{        
-        width: 25%;        
-        margin: 0;        
+        width: 70%;
     }
 
-    .news>form>button:hover{
+    .news>form>input {
+        width: 37.5%;
+        padding: 0 2%;
+        margin: 0 .25%;
+        text-align: left;
+    }
+
+    .news>form>button {
+        width: 25%;
+        margin: 0;
+    }
+
+    .news>form>button:hover {
         text-decoration: underline;
     }
 
-    .logoStyle{
+    .logoStyle {
         width: 225px;
     }
 
     .formStyle {
-        width: 30%;                
+        width: 30%;
         margin-right: 20px;
     }
 
     .menu2 {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;        
+        justify-content: space-evenly;
         background-color: #333;
-        position: fixed;                
+        position: fixed;
         z-index: 2;
         width: 100%;
-        margin-top: 1px;        
+        margin-top: 1px;
     }
-    
+
     .menu2>h2 {
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 20px;
         font-weight: 350;
     }
-    
+
     .menu2>div>a {
         text-decoration: none;
         color: white;
@@ -732,94 +824,139 @@
         text-align: center;
         margin: 0 2.5px;
     }
-    
+
     .menu2>div>a:hover {
         color: black;
     }
-    
+
     .menu2>div>a:last-child {
         background-color: rgb(57, 183, 187);
     }
-    
-    #navMenu{
+
+    #navMenu {
         display: none;
     }
 
-    #login,#cadastro,#carrinho,#compras,#conta,#dados{    
+    #login,
+    #cadastro,
+    #carrinho,
+    #compras,
+    #conta,
+    #dados {
         display: none;
         height: calc(100vh - 31px);
-        margin-top: 51px ;
+        margin-top: 51px;
         width: 75%;
         margin-left: 12.5%;
     }
 
-    #login,#cadastro{
+    #login,
+    #cadastro {
         flex-direction: row;
-    }    
+    }
 
-    #cadastro>div:nth-child(2){
+    #cadastro {
+        height: 135vh;
+    }
+
+    #cadastro>div:nth-child(2) {
         height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
-    #cadastro>div:first-child,#cadastro>div:last-child{
+    #cadastro>div:first-child,
+    #cadastro>div:last-child {
         height: 80%;
-        width: 30%;        
+        width: 30%;
         background-image: url(components/img/backgroundForm.png);
         background-size: cover;
-        background-position: center;    
+        background-position: center;
         border-radius: 0;
     }
 
-    #cadastro>div:first-child{
+    #cadastro>div:first-child {
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
 
-    #cadastro>div:last-child{
+    #cadastro>div:last-child {
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
     }
 
-    #login>div:first-child{
+    .formDados {
+        height: 120vh;
+        flex-direction: row;
+    }
+
+    .formDados>div:nth-child(2) {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .formDados>div:first-child,
+    .formDados>div:last-child {
+        height: 80%;
+        width: 30%;
+        background-image: url(components/img/backgroundForm.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 0;
+    }
+
+    .formDados>div:first-child {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .formDados>div:last-child {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #login>div:first-child {
         height: 70vh;
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
-        width: 50%;
+        width: 30%;
     }
 
-    #login>div:nth-child(2){
+    #login>div:nth-child(2) {
         width: 70%;
         background-color: #333;
-        height: 70vh;        
+        height: 70vh;
         border-radius: 10px;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;    
+        justify-content: space-evenly;
         flex-direction: column;
-        text-align: center;        
+        text-align: center;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0px;
     }
-    
-    #login>div:nth-child(2)>form{
+
+    #login>div:nth-child(2)>form {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         width: 60%;
     }
-    
-    #login>div:nth-child(2)>form>input,#login>div:nth-child(2)>form>button{    
+
+    #login>div:nth-child(2)>form>input,
+    #login>div:nth-child(2)>form>button {
         width: 100%;
         height: 35px;
-        border-radius: 10px;    
+        border-radius: 10px;
         text-align: center;
         border: 0;
         margin: 3px 0;
-        font-size: 16px;    
+        font-size: 16px;
     }
 }

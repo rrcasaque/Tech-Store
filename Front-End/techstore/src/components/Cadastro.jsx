@@ -20,7 +20,7 @@ export default function Cadastro(props) {
                         <input type="text" placeholder="Bairro" />
                         <input type="text" placeholder="Rua" />
                         <input type="text" placeholder="Número" />
-                        <input id="complemento" type="text" placeholder="Complemento" />
+                        <input type="text" placeholder="Complemento" />
                         <div id="endereco">
                             <p>Tipo de endereço:</p>                            
                             <span><input type="radio" name="endType" value="1" />Casa</span>
